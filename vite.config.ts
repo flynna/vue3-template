@@ -18,6 +18,9 @@ export default defineConfig({
         {
           'vue-router': ['useRouter', 'useRoute'],
         },
+        {
+          '@vueuse/core': ['useVModel', 'useVModels', 'useMouse'],
+        },
       ],
       resolvers: [ElementPlusResolver()],
     }),
